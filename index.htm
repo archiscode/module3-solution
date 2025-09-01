@@ -30,30 +30,60 @@
       <!-- Mobile Dropdown Menu -->
       <div class="collapse navbar-collapse" id="mobile-menu">
         <ul class="nav navbar-nav visible-xs text-center">
-          <li><a href="#">Chicken</a></li>
-          <li><a href="#">Beef</a></li>
-          <li><a href="#">Sushi</a></li>
+          <li><a href="#chicken">Chicken</a></li>
+          <li><a href="#beef">Beef</a></li>
+          <li><a href="#sushi">Sushi</a></li>
         </ul>
       </div>
     </div>
   </nav>
 
   <!-- PAGE HEADING -->
-  <div class="container text-center">
+  <div class="container text-center" id="top">
     <h1>Our Menu</h1>
   </div>
 
-  <!-- TALL SECTION -->
+  <!-- 3 SECTIONS -->
   <div class="container-fluid">
     <div class="row">
-      <div class="col-xs-12 tall-section">
+      <!-- Chicken -->
+      <div class="col-md-4 col-sm-6 col-xs-12 section-box" id="chicken">
+        <h3 class="text-center">Chicken</h3>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius, nibh in dapibus porta, turpis lectus cursus nisi, nec cursus erat nisl sit amet ligula. 
-          Praesent gravida fermentum ligula, ut pulvinar arcu suscipit eu. Integer gravida mi nec posuere ullamcorper. 
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+          Mauris vel mi et arcu placerat faucibus. Nulla facilisi. 
+          Sed sit amet magna quis libero mattis volutpat.
         </p>
         <p>
-          (Repeat this text or let CSS height handle tall layout)
+          Suspendisse potenti. Curabitur at leo ut ipsum sodales aliquam.
         </p>
+        <a href="#top" class="back-top">Back to Top</a>
+      </div>
+
+      <!-- Beef -->
+      <div class="col-md-4 col-sm-6 col-xs-12 section-box" id="beef">
+        <h3 class="text-center">Beef</h3>
+        <p>
+          Proin nec urna tincidunt, interdum elit at, tincidunt metus. 
+          Vivamus eget magna posuere, lacinia nisl et, suscipit risus.
+        </p>
+        <p>
+          Duis feugiat massa eu tortor fermentum, vel fermentum eros mattis.
+        </p>
+        <a href="#top" class="back-top">Back to Top</a>
+      </div>
+
+      <!-- Sushi -->
+      <div class="col-md-4 col-sm-12 col-xs-12 section-box" id="sushi">
+        <h3 class="text-center">Sushi</h3>
+        <p>
+          Cras ut mauris aliquet, tincidunt nunc id, dapibus elit. 
+          Integer tincidunt orci nec leo gravida, a tincidunt turpis tincidunt.
+        </p>
+        <p>
+          Etiam viverra sem nec lorem fermentum, ac vehicula velit porttitor.
+        </p>
+        <a href="#top" class="back-top">Back to Top</a>
       </div>
     </div>
   </div>
